@@ -20,7 +20,7 @@ requirements:
     - {{ compiler('go-nocgo') }}
     - go-licenses
   host:
-    - libfuse
+    - libfuse3
 
 test:
   commands:
